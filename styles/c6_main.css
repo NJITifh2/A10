@@ -56,7 +56,9 @@ main {
 }
 main h1 {
 	font-size: 150%;
-	padding: .3em 0;
+	padding-top: .5em;
+	padding-bottom: .25em;
+	margin: 0em;
     border-top: 3px solid #931420;
     border-bottom: 3px solid #931420;
 }
@@ -71,6 +73,7 @@ main h3 {
 }
 main img {
 	padding-bottom: 1em;
+
 }
 main p {
 	padding-bottom: .5em;
@@ -111,6 +114,17 @@ article h3 {
 	padding-bottom: .25em;
 }
 
+article img {
+	padding-bottom: 0px;
+	float: right;
+	margin-top: 1px;
+	margin-left: 1px;
+	margin-bottom: 1px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
 /* the styles for the aside */
 aside {
 	padding-left: 20px;
@@ -135,3 +149,4 @@ footer p {
 	color: white;
 	padding: 1em 0;
 }
+
